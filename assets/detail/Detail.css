@@ -1,0 +1,147 @@
+.detail .container {
+    margin: 0 auto;
+    width: 90%;
+
+    .head {
+        display: flex;
+        gap: 30px;
+
+        .page {
+            display: flex;
+
+            img {
+                width: 60%;
+                height: 400px;
+                text-align: center;
+            }
+
+            h5 {
+                width: 10%;
+                height: 60px;
+                padding: 20px;
+                border-radius: 50%;
+                background-color: #ffd100;
+                
+            }
+        }
+
+        .about {
+            width: 30%;
+
+            .price {
+                color: #f00;
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            .status {
+                font-weight: 500;
+                font-size: 18px;
+
+                span {
+                    color: #62C370;
+                }
+            }
+
+            .monthly {
+                border-radius: 7px;
+                width: 60%;
+                padding: 15px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                color: #fff;
+                background-color: #62C370;
+            }
+
+            .icons {
+                display: flex;
+                gap: 10px;
+
+                button {
+                    border-radius: 7px;
+                    width: 80%;
+                    padding: 10px 30px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border: none;
+                    color: #fff;
+                    background-color: #13b5f5;
+                }
+
+                .heart {
+                    font-size: 35px;
+                    transform: 0.6s;
+
+                    &:hover {
+                        color: #f00;
+                    }
+                }
+
+                .scales {
+                    font-size: 35px;
+                    color: #f00;
+                }
+            }
+
+.buttons{
+    background-color: #f00;
+}
+
+            button {
+                border-radius: 7px;
+                border: none;
+                font-size: 15px;
+                font-weight: bold;
+                padding: 13px;
+                margin: 5px;
+                width: 45%;
+                color: #000;
+                background-color: #eaeaea;
+            }
+
+        }
+    }
+
+    .payment {
+        border: 1px solid #dfdfdf;
+        width: 25%;
+
+        .delivery {
+            display: flex;
+            margin: 0 auto;
+            width: 75%;
+            gap: 20px;
+
+            .text {
+                h6 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.features {
+    width: 5%;
+    height: 30px;
+    padding: 6px 30px;
+    font-size: 22px;
+    font-weight: 430;
+    border: 1px solid #000;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    width: 70%;
+}
